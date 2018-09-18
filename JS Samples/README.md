@@ -1,4 +1,8 @@
-Instructions for running the samples:
+# Open Api WebSocket Streaming
+
+### JavaScript Sample
+
+## Instructions for running the samples
 
 1.Do Npm install in your folder.
 
