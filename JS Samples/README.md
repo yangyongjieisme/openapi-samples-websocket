@@ -1,13 +1,13 @@
 # Open Api WebSocket Streaming
 
-### JavaScript Sample
+## JavaScript Sample
 
-## Instructions for running the samples
+### Instructions for running the samples
 
-1.Do Npm install in your folder.
+1. Run `npm install` in your folder.
 
-2.Run 'npm run webpack' to build the bundle files.
+2. Run `npm run webpack` to build the bundle files.
 
-3.Run Command "node server" through Git Bash for running the code on browser.
+3. Run command `node server` to start the server.
 
-4.Open localhost:8080/views/priceSubscription.html in the browser to see the sample.
+4. Visit `localhost:8080/views/priceSubscription.html` in your browser to see the sample.
