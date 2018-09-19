@@ -113,7 +113,7 @@ namespace Streaming.WebSocket.Samples
 			_token = "#######";
 
 			//Url for streaming server.
-			_webSocketConnectionUrl = "ws://gateway.saxobank.com/sim/openapi/streamingws/connect";
+			_webSocketConnectionUrl = "wss://gateway.saxobank.com/sim/openapi/streamingws/connect";
 
 			//Url for streaming server.
 			_webSocketAuthorizationUrl = "https://gateway.saxobank.com/sim/openapi/streamingws/authorize";
