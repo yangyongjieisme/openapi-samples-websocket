@@ -113,10 +113,10 @@ namespace Streaming.WebSocket.Samples
 			_token = "#######";
 
 			//Url for streaming server.
-			_webSocketConnectionUrl = "wss://gateway.saxobank.com/sim/openapi/streamingws/connect";
+			_webSocketConnectionUrl = "wss://streaming.saxobank.com/sim/openapi/streamingws/connect";
 
 			//Url for streaming server.
-			_webSocketAuthorizationUrl = "https://gateway.saxobank.com/sim/openapi/streamingws/authorize";
+			_webSocketAuthorizationUrl = "https://streaming.saxobank.com/sim/openapi/streamingws/authorize";
 
 			//Url for creating price subscription.
 			_priceSubscriptionUrl = "https://gateway.saxobank.com/sim/openapi/trade/v1/prices/subscriptions";
