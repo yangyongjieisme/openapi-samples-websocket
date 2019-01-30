@@ -25,7 +25,7 @@ class priceSubscription {
         this.newTokenStatus = document.getElementsByClassName('newToken-status')[0];
         this.lastReceivedMessageId = "";
         this.messageIDArray = [];
-        this.priceSubscriptionUrl = "https://streaming.saxobank.com/sim/openapi/trade/v1/prices/subscriptions";
+        this.priceSubscriptionUrl = "https://gateway.saxobank.com/sim/openapi/trade/v1/prices/subscriptions";
         this.webSocketConnectionUrl = "wss://streaming.saxobank.com/sim/openapi/streamingws/connect";
         this.webSocketAuthorizationUrl = "https://gateway.saxobank.com/sim/openapi/streamingws/authorize";
     }
