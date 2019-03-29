@@ -10,6 +10,9 @@ https://github.com/SaxoBank/openapi-samples-websocket/tree/master/CSharp%20Sampl
 JavaScript
 https://github.com/SaxoBank/openapi-samples-websocket/tree/master/JS%20Samples
 
+Java
+https://github.com/SaxoBank/openapi-samples-websocket/tree/master/Java%20Samples
+
 ### Running the samples
 
 To run the samples you will need a token. You can get one by logging into our developer portal at https://developer.saxo and requesting a 24h token.
