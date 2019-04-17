@@ -64,7 +64,7 @@ public class SampleRunner {
 	public static void main(String[] args) {
 		try {
 		    //A valid OAuth2 _token.
-            String token = "eyJhbGciOiJFUzI1NiIsIng1dCI6IkQ2QzA2MDAwMDcxNENDQTI5QkYxQTUyMzhDRUY1NkNENjRBMzExMTcifQ.eyJvYWEiOiI3Nzc3NyIsImlzcyI6Im9hIiwiYWlkIjoiMTEwIiwidWlkIjoiaFU4V3pub1VCOTAzbGw4bXNvNXxEdz09IiwiY2lkIjoiaFU4V3pub1VCOTAzbGw4bXNvNXxEdz09IiwiaXNhIjoiVHJ1ZSIsInRpZCI6IjIwMDIiLCJzaWQiOiIwY2IwYjdlM2ZiNTg0YzY1OTRjYzU5ZGI2YTM3ZWVhYiIsImRnaSI6IjgyIiwiZXhwIjoiMTU1MzkzMzUzOCJ9.bN7Fr7br8OpnCuidsCeRih4idi4d3GK_oEwRQIZyoV03o973B2l-eSj8vYu9dcFRTqOgeGQ7aaN56eZfQ53ajg";
+            String token = "eyJhbGciOiJFUzI1NiIsIng1dCI6IkQ2QzA2MDAwMDcxNENDQTI5QkYxQTUyMzhDRUY1NkNENjRBMzExMTcifQ.eyJvYWEiOiI3Nzc3NyIsImlzcyI6Im9hIiwiYWlkIjoiMTEwIiwidWlkIjoiaFU4V3pub1VCOTAzbGw4bXNvNXxEdz09IiwiY2lkIjoiaFU4V3pub1VCOTAzbGw4bXNvNXxEdz09IiwiaXNhIjoiVHJ1ZSIsInRpZCI6IjIwMDIiLCJzaWQiOiI1NWVlZmVlMjE5MmI0MmJkOGY4ZGQwYmEzYTExNWQyNSIsImRnaSI6IjgyIiwiZXhwIjoiMTU1NTU4MDA2MSJ9.KWQvlmWZt5HL2wkipPSccgzXNn1cq73tPs3mwckasmhAVRm1m6k1BpGNvgd9QKol5GFyvHMvt4PesVv7g3xNog";
             //Url for streaming server.
             String webSocketConnectionUrl = "wss://streaming.saxobank.com/sim/openapi/streamingws/connect";
 
@@ -86,8 +86,8 @@ public class SampleRunner {
     
             String subscriptionSnapshotResponse = priceSubscriptionClient.CreateSubscription(token, contextId, referenceId);
 
-            //Wait 5 seconds for messages from Web Socket and then stop.
-            Thread.sleep(50000);
+           
+            Thread.sleep(500000000);
 
         } catch (InterruptedException ex) {
             System.err.println("InterruptedException exception: " + ex.getMessage());
