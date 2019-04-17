@@ -15,7 +15,7 @@ public class SaxoBankWebSocketMessageHandler implements MessageHandler.Whole<byt
         ByteBuffer bb = ByteBuffer.wrap(message);
         //Important to set the byte order to little endian. Otherwise you are going to get strange numbers.
         bb.order(ByteOrder.LITTLE_ENDIAN);
-        System.out.println(new String(bb.array()));
+        
         long messageId = bb.getLong(index);
         index += 8;
 

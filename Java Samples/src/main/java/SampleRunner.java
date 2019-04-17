@@ -87,7 +87,7 @@ public class SampleRunner {
             String subscriptionSnapshotResponse = priceSubscriptionClient.CreateSubscription(token, contextId, referenceId);
 
            
-            Thread.sleep(500000000);
+            Thread.sleep(500000);
 
         } catch (InterruptedException ex) {
             System.err.println("InterruptedException exception: " + ex.getMessage());
